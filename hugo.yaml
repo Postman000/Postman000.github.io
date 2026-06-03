@@ -1,5 +1,5 @@
 baseURL: "http://localhost:1313/"
-title: My New Hugo Project
+title: Postman000's Blog
 paginate: 5
 theme: ["PaperMod"]
 
@@ -14,10 +14,10 @@ minify:
 
 params:
   env: production
-  title: My New Hugo Project
-  description: "This is my blog"
-  keywords: [Blog, PaperMod]
-  author: Me
+  title: Postman000's Blog
+  description: "记录学习、分享技术、沉淀思考"
+  keywords: [Blog, PaperMod, Hugo]
+  author: Postman000
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -42,13 +42,26 @@ params:
     text: "Home"
     iconHeight: 35
 
-  homeInfoParams:
-    Title: "Hi there 👋"
-    Content: Welcome to my blog
+  # 首页个人简介模式（更有设计感）
+  profileMode:
+    enabled: true
+    title: "Postman000"
+    subtitle: "保持好奇，持续学习 🚀"
+    imageUrl: "https://github.com/Postman000.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Postman000
+    buttons:
+      - name: 📚 文章
+        url: posts
+      - name: 🏷️ 标签
+        url: tags
+      - name: 📂 归档
+        url: archives
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Postman000"
 
   cover:
     hidden: true
@@ -68,17 +81,21 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: 分类
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: archives
-      name: archives
+      name: 归档
       url: /archives/
       weight: 30
+    - identifier: github
+      name: GitHub
+      url: https://github.com/Postman000
+      weight: 40
 
 pygmentsUseClasses: true
 markup:
