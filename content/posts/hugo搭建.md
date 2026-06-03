@@ -2,6 +2,7 @@
 title: "从零搭建 Hugo + PaperMod 博客并部署到 GitHub Pages"
 date: 2026-06-03T15:31:30+08:00
 tags: ["hugo", "papermod", "github-pages", "教程"]
+categories: ["工具环境搭建"] 
 author: "Postman000"
 description: "详细记录如何从零开始搭建一个 Hugo 博客，使用 PaperMod 主题，并部署到 GitHub Pages。"
 draft: false
