@@ -1,5 +1,5 @@
 ---
-title: "IAR_RH850安装"
+title: "IAR for RH850 安装与激活完整教程"
 date: 2026-06-03T19:31:30+08:00
 tags: ["教程"]
 categories: ["工具环境搭建"] 
