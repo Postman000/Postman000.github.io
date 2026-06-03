@@ -2,6 +2,7 @@
 title: "Markdown 常用语法速查"
 date: 2026-06-03T16:00:00+08:00
 tags: ["markdown", "写作", "工具"]
+categories: ["其它技巧与示例"]
 author: "Postman000"
 description: "整理 Markdown 最常用的语法，方便日常写作时快速查阅。"
 draft: false

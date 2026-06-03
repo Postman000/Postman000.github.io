@@ -2,6 +2,7 @@
 title: "你好，世界！我的第一篇博客"
 date: 2026-06-03T08:00:00+08:00
 tags: ["hugo", "papermod", "beginner"]
+categories: ["测试"] 
 author: "Me"
 description: "这是一篇示例文章，介绍如何开始使用 Hugo + PaperMod 写博客。"
 draft: false

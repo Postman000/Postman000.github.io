@@ -2,6 +2,7 @@
 title: "PaperMod 主题常用配置速查"
 date: 2026-06-03T16:30:00+08:00
 tags: ["hugo", "papermod", "配置", "美化"]
+categories: ["其它技巧与示例"]
 author: "Postman000"
 description: "汇总 PaperMod 主题最常用的配置项，方便快速定制自己的博客外观。"
 draft: false

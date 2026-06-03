@@ -1,4 +1,6 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://postman000.github.io/"
+languageCode: "zh-cn"
+defaultContentLanguage: "zh-cn"
 title: Postman000's Blog
 paginate: 5
 theme: ["PaperMod"]
@@ -7,6 +9,12 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 minify:
   disableXML: true
@@ -42,7 +50,6 @@ params:
     text: "Home"
     iconHeight: 35
 
-  # 首页个人简介模式（更有设计感）
   profileMode:
     enabled: true
     title: "Postman000"
@@ -62,6 +69,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/Postman000"
+    - name: email
+      url: "mailto:mao1915771@163.com"
 
   cover:
     hidden: true
@@ -80,6 +89,10 @@ params:
 
 menu:
   main:
+    - identifier: search
+      name: 🔍 搜索
+      url: /search/
+      weight: 5
     - identifier: categories
       name: 分类
       url: /categories/
@@ -96,8 +109,14 @@ menu:
       name: GitHub
       url: https://github.com/Postman000
       weight: 40
+    - identifier: about
+      name: 关于我
+      url: /about/
+      weight: 50
 
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
+    lineNos: true
+    lineNumbersInTable: true
