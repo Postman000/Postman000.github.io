@@ -22,17 +22,12 @@ editPost:
 
 ### 安装 Hugo
 
+安装过程看官网
+后续教程见[快速入门 | Hugo官方文档](https://hugo.opendocs.io/getting-started/quick-start/)
+博客主题安装网站(包含教程)
+https://github.com/adityatelange/hugo-PaperMod/wiki/Installation
+
 Hugo 是用 Go 语言编写的静态网站生成器，速度极快。安装方式很简单：
-
-**Windows（使用 Scoop）：**
-```bash
-scoop install hugo-extended
-```
-
-**macOS（使用 Homebrew）：**
-```bash
-brew install hugo
-```
 
 **验证安装：**
 ```bash
@@ -215,5 +210,5 @@ MyFreshWebsite/
 整个过程是**全自动**的，你只需要专注写作和 `git push`，部署完全不用管。
 
 ---
-
-> 有问题欢迎去我的 GitHub 交流：[github.com/Postman000](https://github.com/Postman000)
+<!-- 
+> 有问题欢迎去我的 GitHub 交流：[github.com/Postman000](https://github.com/Postman000) -->
